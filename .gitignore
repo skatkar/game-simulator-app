@@ -1,0 +1,10 @@
+#Java Generated Files
+*.class
+
+#Compiled Artifcats
+bin/
+
+#IDE Files
+.classpath
+.project
+.settings/
