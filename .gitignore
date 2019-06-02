@@ -3,8 +3,3 @@
 
 #Compiled Artifcats
 bin/
-
-#IDE Files
-.classpath
-.project
-.settings/
