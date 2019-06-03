@@ -55,6 +55,8 @@ public class ChutesAndLadders {
 
 			if (args.length > 0 && args.length < ChutesAndLaddersValues.MIN_NO_PLAYERS.getValue()) 
 				throw new GameException("At least two players are required to start the game");
+			else if (args.length > ChutesAndLaddersValues.MAX_NO_OF_PLAYERS.getValue())
+				throw new GameException("Can't play more than 4 players");
 			else if(args.length != 0)
 				playerNames = args;
 		} catch (Exception ex) {
